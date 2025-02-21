@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,200;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  font-family: JetBrains Mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 100vw;
+  overflow-x: hidden;
+  color: rgba(255, 255, 255, 0.87);
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  width:100%;
+  height:auto;
+  min-height:100vh;
+}
+
+.light .thumbnails-color{
+  background-color: #fafafa;
+}
+.dark .thumbnails-color{
+  background-color: #3d3d3d;
+}
+.ql-container.ql-snow{
+  border: none!important;
+}
+.ql-toolbar.ql-snow {
+  border-top: none!important;
+  border-left: none!important;
+  border-right: none!important;
+  border-bottom: solid 1px #6d6c6c!important;
+}
+
